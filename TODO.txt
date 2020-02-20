@@ -1,9 +1,22 @@
 Dans le projet intellij ci-joint Implémentez les classes Counter, UpperLimitedPositiveCounter et CounterException telle que
 
 - La classe Counter implémente l'interface ICounter fournie
+- Counter est un compteur libre, on ne
+  lui impose pas de  contrainte, il peut même etre négative.
 
-- La classe UpperLimitedPositiveCounter hérite de la classe Counter, comme son nom l'indique, c'est un compteur dont la valeur v respecte la contrainte    0 < v < max
+- La classe UpperLimitedPositiveCounter hérite de la classe Counter, comme son nom l'indique,
+c'est un compteur dont la valeur v respecte la contrainte    0 < v < max
+- La classe UpperLimitedPositiveCounter, comme son nom l'indique il a un
+  max et doit rester positive
 
 - La valeur initiale et la valeur maximale, le cas échéant,  doivent être passées au constructeur
 
 Tester votre code dans la classe Main fournie
+
+
+Les valeurs des compteurs peuvent croitre et décroitre, un pas peut être
+négatif.
+
+
+Dans la classe Main, vous devez tester chacune des méthodes des deux
+classes et vérifier si la valeur obtenue est égale à la valeur attendue
